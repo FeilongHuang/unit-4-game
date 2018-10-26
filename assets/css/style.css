@@ -1,0 +1,10 @@
+header,h1{
+    background-color: orange;
+    color: white;
+    font-size: 50px;
+    width: 100px;
+}
+#content{
+    background-color: #fbe6cf;
+    color: #6dac76;
+}
