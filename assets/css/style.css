@@ -1,10 +1,75 @@
-header,h1{
-    background-color: orange;
+body{
+    background-image: url("assets/images/bgImg.jpg")
+}
+header{
+    background-color: #ca6f32;
     color: white;
-    font-size: 50px;
-    width: 100px;
+    font-size: 30px;
+    padding:25px;
+    margin:10px;
+    width:250px;
 }
 #content{
     background-color: #fbe6cf;
     color: #6dac76;
+    font-size: 20px;
+    width: 450px;
+    height:240px;
+    padding:20px;
+    margin:10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+#randomNumber{
+    background-color: #53c987;
+    width: 250px;
+    height:80px;
+    color: #5e6e71;
+    font-size: 35px;
+    margin:10px;
+    padding:10px;
+    float: left;
+}
+#win-lose{
+    background-color: #3cfefe;
+    width: 90px;
+    height:80px;
+    color: #6dac76;
+    font-size: 17px;
+    margin:10px;
+    padding:10px;
+    float: left;
+
+}
+#wins,#loses{
+    float: left;
+    margin:10px;
+}
+#images{
+    width: 600px;
+    clear: both;
+}
+img{
+    width:80px;
+    height:80px;
+}
+.crystals{
+    float: left;
+    margin:10px;
+}
+h2,#yourTotalScore{
+    background-color: #1fa397;
+    color: white;
+    width:250px;
+    margin: 10px;
+    padding: 5px;
+    clear:both;
+
+}
+h2{
+    font-size: 17px;
+}
+#yourTotalScore{
+    height:90px;
+    font-size: 30px
 }
